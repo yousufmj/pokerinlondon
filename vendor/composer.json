@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cviebrock/eloquent-taggable": "^1.0"
+    }
+}

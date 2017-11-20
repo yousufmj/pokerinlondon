@@ -1,0 +1,67 @@
+/* === General === */
+.skin_btn {display:inline-table; cursor:pointer; width:30px; height:30px; margin-bottom: 1px;}
+.skin_size { width:30px; height:30px; margin:3px;}
+.well{padding:10px;}
+.primary_skin {background-color:#128bc6;}
+.danger_skin{background-color: #ef6f6c;}
+.success_skin{background-color: #C13100;}
+.warning_skin{background-color: #F89A14;}
+.purple_skin{background-color: #D2527F;}
+.turquoise_skin{background-color: #4ecdc4;}
+.asbestos_skin{background-color: #7f8c8d;}
+.hoki_skin{background-color: #67809f; }
+.title{color: #015249; }
+.sub-title{color: #57BC90;}
+.red{color: #ff0000;}
+html{height: 100% !important;}
+body{height: 100% !important; display: flex; flex-direction: column;}
+header{flex: 1; flex-grow: 0;}
+.container{flex:1;}
+footer{flex:1; flex-grow: 0;}
+
+/* Panels */
+.panel-light-blue{border: 5px solid #DCF0F2; }
+.panel-poker{ padding-top: 0 !important; }
+.social-tab{padding-top: 10px;}
+
+/* === Home page - Today == */
+#cash-table td,th{
+    text-align: center;
+}
+#cash-table .cash-casino{
+    font-weight: bold;
+    font-size: 14px;
+    color: #2E2E2E;
+    text-align: left; 
+}
+#cash-table th{
+    font-size: 17px;
+    color: #2E2E2E;
+}
+
+/* === Casino === */
+.casino-tabs{
+    padding: 10px;
+    border-radius: 30px;
+    border: 7px solid #77c9D4;
+}
+img.casino-logo{
+    width: 135px;
+    height: 135px;
+}
+.casino-grid{
+    padding-top: 20px;
+}
+
+/* === Mobile === */
+@media(max-width: 360px) {
+    h3.sub-title{ font-size: 21px !important; }
+    h2.title{ font-size: 23px !important; }
+    #cash-table th {
+        font-size: 14px !important;
+    }
+    #cash-table .cash-casino {
+    font-size: 12px !important;
+    }
+
+}
